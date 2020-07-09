@@ -1,0 +1,65 @@
+/* 头部 */
+.header-left{padding:0 25px;height: 100%;line-height:60px;}
+header.first-header.el-header{line-height: 60px;}
+.title-txt{font-size: 18px;color:#333;text-align: left}
+.select-doc{width:119px}
+.iconfont.iconchat{font-size: 22px;line-height: 23px}
+.head-img{width: 30px;height: 30px}
+.header-right-col{text-align: right}
+.header-right{padding-right: 25px}
+.chat-txt{display: inline-block;margin-right: 20px;}
+.el-dropdown-menu.el-popper.set-user-Info-menu{padding: 10px 0;margin:0;top:55px!important;text-align: center;width: 163px;}
+.el-dropdown-menu.el-popper.set-user-Info-menu li{height: 38px;line-height: 38px;}
+.avatar-dialog .el-dialog{width: 560px;}
+.upload-avatar{margin-bottom: 20px}
+.upload-avatar-btn{width: 150px;height: 34px}
+.avatar-dialog-con{text-align: center}
+.avatar-img-show{width: 200px;height: 200px;display: inline-block;position: relative;}
+/* .avatar-img{width:100%;height: 100%} */
+.avatar-dialog-footer{padding-bottom: 10px;}
+.mask{width: 190px;height: 190px;opacity: 0.3;}
+.mask-cirle{opacity:0.2;width:100%;height: 100%;}
+.mask-cirle,.mask{position: absolute;top:0;left: 0;}
+/* 修改密码 */
+.passwordForm .el-form-item__label{padding-right: 10px;}
+.passwordForm .el-input__inner{height: 34px;line-height: 34px;}
+.passwordForm .el-form-item__content,.passwordForm .el-form-item__label{line-height: 34px}
+.passwordForm .el-form-item{margin-bottom: 30px}
+.password-dialog .el-dialog__body{padding-bottom: 0}
+.password-dialog .el-dialog__footer{padding-top: 0}
+.passwordForm .el-form-item__label{color: #333}
+/* 文库 */
+.doc-library-left-menu{height: 100%;background: #f5f5f5;}
+.doc-library-left-menu .el-submenu{height: 100%;}
+.doc-library-left-menu .el-submenu .el-menu{height: 100%;overflow: auto;}
+.doc-library-container .left-sider{overflow: unset;}
+.doc-library-left-menu .el-submenu .el-menu .el-menu-item{text-align:left;padding:0 0 0 20px!important;height: 40px;line-height: 40px;white-space: normal;overflow: hidden;text-overflow: ellipsis;min-width: 165px;}
+.doc-library-left-menu .el-submenu .el-menu .el-menu-item:focus,.doc-library-left-menu .el-submenu .el-menu .el-menu-item:hover{background:rgba(225,39,38,0.05);}
+.doc-library-left-menu .el-submenu .el-menu .el-menu-item.is-active{color:#d61a19}
+.doc-library-left-menu .el-submenu .el-menu .el-menu-item .tabcon-item-poper{background-color: unset;padding: unset;bottom: 0;right: 15px;}
+.doc-library-left-menu .el-submenu .el-menu .el-menu-item:hover .tabcon-item-poper{visibility: visible}
+.classify-dialog .el-dialog{width:450px;margin-top: 20vh!important;}
+.classify-dialog .el-dialog__header{padding: 10px 15px} 
+.classify-dialog .el-dialog__body{padding: 15px 10px} 
+.classify-dialog .dialog-con{padding:0 15px;}
+.classify-dialog .dialog-con .el-checkbox{width:100px;margin-bottom: 10px;}
+.classify-dialog .dialog-con .el-checkbox .el-checkbox__label{width:100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;line-height: 14px;}
+.classify-dialog .dialog-con .el-checkbox .el-checkbox__input{vertical-align: unset}
+.el-select.classify{width:100%}
+.classify .el-tag,.classify .icondelete1,.classify .iconchoice{font-size: 14px}
+.editFileForm .el-form-item:last-child{margin-bottom: 0;}
+.import-knowledge{display: inline-block}
+.header-top .search-knowledge .icon-sousuo{top:-10px;}
+.import-knowledge button{border-radius: 19px;height: 35px;}
+.searched-font{color:#e12726}
+.knowledge-title{font-size: 16px}
+.knowledge-item{border-bottom: 1px dashed #eee;padding:10px 5px}
+.knowledge-item:hover{background: #f3f6fc;}
+.knowledge-item p:not(:last-child){margin-bottom: 20px;}
+.knowledge-item p:not(.knowledge-item-title){padding-left: 26px}
+.knowledge-item p:last-child span{display: inline-block}
+.knowledge-item p:last-child .knowledge-time{margin-left:100px;color:#bbb; }
+.knowledge-item:hover .tabcon-item-poper{visibility: visible;bottom: 0;right: 0;background: #f3f6fc;}
+.knowledge-abstract>span{width:100%;display: inline-block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.knowledge-title{width:calc(100% - 30px);display: inline-block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.knowledge-title-icon{vertical-align: super}
